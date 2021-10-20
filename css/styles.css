@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.dashboard-wrapper .content {
+  background: #f3f3f3;
+  flex: 1; }
+  .dashboard-wrapper .content .main-nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 16px #a7afb754;
+    opacity: 1;
+    height: 65px; }
+    .dashboard-wrapper .content .main-nav input {
+      width: 374px;
+      height: 30px;
+      border: 1px solid #dde4eb;
+      opacity: 1;
+      margin-right: 41.3px; }
+    .dashboard-wrapper .content .main-nav img {
+      padding-right: 24.8px; }
+  .dashboard-wrapper .content .main-content {
+    padding: 1rem; }
+    .dashboard-wrapper .content .main-content img {
+      width: 50%; }
+
+.dashboard-wrapper .side-nav {
+  background: transparent linear-gradient(360deg, #050e50 0%, #34427d 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 270px; }
+  @media only screen and (max-width: 768px) {
+    .dashboard-wrapper .side-nav {
+      position: absolute;
+      height: 100vh; } }
+  .dashboard-wrapper .side-nav__brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding: 13px 28px 29px; }
+  .dashboard-wrapper .side-nav__brand-logo {
+    background-color: #34427d;
+    width: 40px;
+    height: 40px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .dashboard-wrapper .side-nav__brand-logo label {
+      color: #ffffff;
+      font-weight: bold; }
+  .dashboard-wrapper .side-nav__brand-label {
+    font-size: 25px;
+    color: #ffffff; }
+  .dashboard-wrapper .side-nav__user {
+    background-color: rgba(216, 216, 216, 0.1);
+    width: 208px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 44px; }
+    .dashboard-wrapper .side-nav__user img {
+      padding: 14px 16px 12px 18px;
+      width: 35px;
+      height: 35px;
+      object-fit: none; }
+  .dashboard-wrapper .side-nav__user-info p {
+    color: #ffffff;
+    font-size: 0.75rem; }
+    .dashboard-wrapper .side-nav__user-info p:first-of-type {
+      font-weight: bold;
+      font-size: 0.93rem; }
+  .dashboard-wrapper .side-nav__menu {
+    display: flex;
+    flex-direction: column; }
+    .dashboard-wrapper .side-nav__menu label {
+      color: #ffffff;
+      opacity: 0.6;
+      padding: 0 28px 9px; }
+    .dashboard-wrapper .side-nav__menu hr {
+      color: #ffffff;
+      margin: 0 28px;
+      opacity: 0.13; }
+    .dashboard-wrapper .side-nav__menu ul {
+      padding-top: 25px; }
+      .dashboard-wrapper .side-nav__menu ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        display: flex;
+        height: 55px;
+        align-items: center;
+        padding: 0 28px; }
+        .dashboard-wrapper .side-nav__menu ul li a:hover {
+          background: #ffffff;
+          color: #303e79; }
+
+html,
+body,
+.dashboard-wrapper {
+  height: 100vh;
+  width: 100%; }
+
+.dashboard-wrapper {
+  display: flex; }
+  @media only screen and (max-width: 768px) {
+    .dashboard-wrapper {
+      position: relative;
+      display: block; } }

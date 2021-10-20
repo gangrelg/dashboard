@@ -1,0 +1,32 @@
+.dashboard-wrapper {
+  .content {
+    background: $grey;
+    flex: 1;
+    .main-nav {
+      align-items: center;
+      background: $white 0% 0% no-repeat padding-box;
+      box-shadow: 0px 4px 16px $shadow-10;
+      display: flex;
+      height: 65px;
+      justify-content: end;
+      opacity: 1;
+
+      input {
+        border: 1px solid $grey-10;
+        height: 30px;
+        margin-right: 41.3px;
+        opacity: 1;
+        width: 374px;
+      }
+      img {
+        padding-right: 24.8px;
+      }
+    }
+    .main-content {
+      padding: 1rem;
+      img {
+        width: 50%;
+      }
+    }
+  }
+}

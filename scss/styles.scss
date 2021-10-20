@@ -1,0 +1,20 @@
+@import './reset';
+@import './_colors';
+@import './mixins';
+@import './section';
+@import './sidenav';
+
+html,
+body,
+.dashboard-wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+.dashboard-wrapper {
+  @include mobile {
+    position: relative;
+    display: block;
+  }
+  display: flex;
+}
