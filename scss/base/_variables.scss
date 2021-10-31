@@ -1,0 +1,40 @@
+// Spacing
+$padding-sm: 13px;
+$margin-sm: 13px;
+
+$padding-lg: 30px;
+$margin-lg: 30px;
+
+// Brand
+$lighter-grey: #ccd7e1;
+$light-grey: #e4eaef;
+$grey: #f3f3f3;
+$dark-grey: #dbdbdb;
+$darker-grey: #747c87;
+
+$light-blue: #dde4eb;
+$blue: #2b80ff;
+$gradient-light-blue: #33417c;
+$gradient-dark-blue: #050e50;
+
+// Secondary
+$transparent-bg: rgba(
+  $color: #fff,
+  $alpha: 0.3,
+);
+$transparent-bg-light: rgba(
+  $color: #fff,
+  $alpha: 0.1,
+);
+
+// Primitive Colors
+$white: #fff;
+$black: #000;
+$green: #12af00;
+$orange: #ffa115;
+
+// Text
+$text-sm: 12px;
+$text-lg: 15px;
+$text-xl: 24px;
+$text-xxl: 28px;
